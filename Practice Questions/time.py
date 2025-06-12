@@ -1,8 +1,12 @@
 import time
-user= int(input("enter time: "))
-if user<=12:
-  print("goodmorning!")
-elif user<=4:
-  print("good Evening!")
-elif user<=10:
-  print("Goodnight!")
+
+current_hour = time.localtime().tm_hour  # gets current hour (0–23)
+
+if current_hour < 12:
+    print("Good Morning!")
+elif current_hour < 17:
+    print("Good Afternoon!")
+elif current_hour < 21:
+    print("Good Evening!")
+else:
+    print("Good Night!")
