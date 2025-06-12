@@ -4,7 +4,7 @@ add= num1+num2
 diff=num1-num2
 prod=num1*num2
 div= num1/num2
-user=input("Enter the Operation You Want")
+user=input("Enter the Operation You Want: ")
 if user=="sum":
   print("The Sum is : ",sum)
 elif user=="difference":
