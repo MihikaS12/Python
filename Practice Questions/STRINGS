@@ -18,3 +18,10 @@ You are selected!
 ''' 
 letter=letter_format.format(name=name,date=date)
 print("/n" + letter) 
+
+#pg3: Write a program to detect double space in a string.
+s= input("enter string")
+if "  " in s:
+  print("double space is detected!")
+else:
+     print("its fine")  
