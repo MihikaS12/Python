@@ -26,7 +26,19 @@ if "  " in s:
 else:
      print("its fine")  
 
+
 #pg4:Replace the double space from problem 3 with single spaces.
  s= input("string is")
  new_s= s.replace(" "," ")
 print("new str",new_s)
+
+#pg5:Write a program to format the following letter using escape sequence 
+characters. 
+#Original letter
+letter = "Dear Harry, this Python course is nice. Thanks!"
+
+# Formatting the letter using escape sequence characters
+formatted_letter = "Dear Harry,\n\tThis Python course is nice.\nThanks!"
+
+# Output the formatted letter
+print(formatted_letter)
