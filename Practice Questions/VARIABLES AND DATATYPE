@@ -26,3 +26,10 @@ if a>b:
   print("a is greater")
 else:
   print("b is greater")
+
+#pg5: Write a python program to find an average of two numbers entered by the user. 
+num1 = int(input("enter first number:"))
+num2= int(input("enter second number:"))
+sum = num1+num2
+avg= sum/2
+print("average is :", avg)
