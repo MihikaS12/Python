@@ -2,3 +2,19 @@
 Afternoon using input () function.
 name= (input("enter name:")
 print(name, "Good Afternoon!")
+
+###pg2:Write a program to fill in a letter template given below with name and date. 
+letter = '''  
+Dear <|Name|>, 
+You are selected! 
+<|Date|> 
+###''' 
+name= input("enter name:")
+date= input("enter date:")
+letter_format='''  
+Dear {name}, 
+You are selected! 
+{date} 
+''' 
+letter=letter_format.format(name=name,date=date)
+print("/n" + letter) 
