@@ -25,3 +25,8 @@ if "  " in s:
   print("double space is detected!")
 else:
      print("its fine")  
+
+#pg4:Replace the double space from problem 3 with single spaces.
+ s= input("string is")
+ new_s= s.replace(" "," ")
+print("new str",new_s)
