@@ -13,3 +13,7 @@ if z == 0:
 else:
   div =n%z
   print("Remainder is :", div)
+
+#pg3: Check the type of variable assigned using input () function. 
+name= input("enter value:")
+print(type(name))
