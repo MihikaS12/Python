@@ -3,3 +3,13 @@ num1 = int(input("enter first number:"))
 num2= int(input("enter second number:"))
 sum = num1+num2
 print("Sum : ", sum)
+
+
+#pg2: Write a python program to find remainder when a number is divided by z. 
+z = int(input("enter divisor:"))
+n= int(input("enter dividend : "))
+if z == 0:
+  print("Zero Division Error")
+else:
+  div =n%z
+  print("Remainder is :", div)
