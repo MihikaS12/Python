@@ -12,3 +12,11 @@ if word in dict1:
 else:
     print("word unavialble")    
 
+#pg2:Write a program to input eight numbers from the user and display all the unique 
+numbers (once). 
+s1= set()
+for i in range(8):
+    number= int(input(f"enter number{i+1}:"))
+    s1.add(number)
+
+print("numbers are ",s1)   
