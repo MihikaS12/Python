@@ -1,1 +1,14 @@
+#pg1: Write a program to create a dictionary of Hindi words with values as their English 
+translation. Provide user with an option to look it up!
+dict1={
+    "namaste":"hello",
+    "paani":"water",
+    "khana":"food",
+    "ghar":"home"
+}
+word=input("enter word to search")
+if word in dict1:
+    print("translation of '{word}' is ",{dict1[word]})
+else:
+    print("word unavialble")    
 
