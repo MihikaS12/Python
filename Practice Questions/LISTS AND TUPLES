@@ -14,4 +14,13 @@ for i in range(7):
 marks.sort()
 print(marks)
 
-#pg3:
+#pg3: Check that a tuple type cannot be changed in python.
+tup1=(1,2,3)
+print("tuple is",tup1)
+tup1[1]=5
+print("new tuple",tup1)
+
+#pg4: Write a program to sum a list with 4 numbers.
+l1=[2,3,4,5]
+total= sum(l1)
+print("sum is",total)
