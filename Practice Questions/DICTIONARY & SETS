@@ -44,8 +44,11 @@ print(type(s))
 value and use key as their names. Assume that the names are unique. 
 dict1={}
 for i in range(4):
-name= input("enter name:")
-languages= input("enter languages")
-dict1[name]=languages
-print(\n"Fav Languages:")
-peint(dict1)
+    name= input("enter name: ")
+    languages= input("enter languages: ")
+    dict1[name]=languages
+print("\nFav Languages:")
+print(dict1)    
+
+
+
