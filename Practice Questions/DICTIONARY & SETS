@@ -58,18 +58,19 @@ fav_lang['John'] = 'Python'
 fav_lang['Emily'] = 'Java'
 fav_lang['John'] = 'C++'  # This will overwrite the previous entry for 'John'
 fav_lang['Alice'] = 'Ruby'
+print(fav_lang)
 
 #pg8:If languages of two friends are same; what will happen to the program in problem 
 6? 
 fav_lang = {}
-
 fav_lang['John'] = 'Python'
 fav_lang['Emily'] = 'Java'
 fav_lang['Alice'] = 'Python'  # Same language as John
 fav_lang['Bob'] = 'Ruby'
+print(fav_lang)
 
-print(fav_lang)
-print(fav_lang)
+#pg9:Can you change the values inside a list which is contained in set S? 
+s = {8, 7, 12, "Harry", [1, 2]}  # This will raise an error
 
 
 
