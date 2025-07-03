@@ -34,3 +34,11 @@ s.add(20.0)
 s.add('20')
 print("set s",s)
 print(len(s))
+
+#pg5: s = {} 
+What is the type of 's'? 
+s={}
+print(type(s))
+
+#pg6:Create an empty dictionary. Allow 4 friends to enter their favorite language as 
+value and use key as their names. Assume that the names are unique. 
