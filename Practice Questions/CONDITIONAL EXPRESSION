@@ -1,1 +1,7 @@
-
+#pg1:Write a program to find the greatest of four numbers entered by the user.
+greatest= None
+for i in range(4):
+  num=int(input(f"Enter Number {i+1}: " ))
+  if greatest is None or num>greatest:
+    greatest=num
+print("The Greatest Num is",greatest)
