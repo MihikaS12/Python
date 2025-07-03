@@ -59,6 +59,16 @@ fav_lang['Emily'] = 'Java'
 fav_lang['John'] = 'C++'  # This will overwrite the previous entry for 'John'
 fav_lang['Alice'] = 'Ruby'
 
+#pg8:If languages of two friends are same; what will happen to the program in problem 
+6? 
+fav_lang = {}
+
+fav_lang['John'] = 'Python'
+fav_lang['Emily'] = 'Java'
+fav_lang['Alice'] = 'Python'  # Same language as John
+fav_lang['Bob'] = 'Ruby'
+
+print(fav_lang)
 print(fav_lang)
 
 
