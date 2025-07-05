@@ -4,3 +4,12 @@ print("multiplication table for" ,num)
 
 for i in range(0, 11):
     print(num, "x", i ,"=" , num*i)
+
+#pg2:Write a program to greet all the person names stored in a list ‘l’ and which starts 
+with S. 
+l = ["Harry", "Soham", "Sachin", "Rahul"] 
+for n in l:
+    if n.startswith("S"):
+        print(f"Hey {n}!")
+
+
