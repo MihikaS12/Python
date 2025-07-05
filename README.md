@@ -22,8 +22,6 @@ This space is where I document my journey in Python—from mastering basics thro
 
 > 📌 *The `Practice Questions` folder will keep growing as I continue learning new concepts and revising existing ones.*
 
----
-
 ## 🧠 Practice Questions
 
 This section focuses on the core building blocks of Python. Each sub-topic contains beginner-level exercises, helping me reinforce my understanding of:
