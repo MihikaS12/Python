@@ -23,3 +23,15 @@ if(p1>33 and p2>33 and p3>33 and percentage>=40):
 else:
   print("Fail")
 
+#pg3: A spam comment is defined as a text containing following keywords: 
+“Make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program 
+to detect these spams. 
+spam = ["Make a lot of money", "buy now", "subscribe this", "click this"]
+email = input("Enter email: ")
+
+for phrase in spam:
+    if phrase.lower() in email.lower():
+        print("Spam!")
+        break
+else:
+    print("Not spam")
