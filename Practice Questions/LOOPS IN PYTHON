@@ -1,1 +1,6 @@
+#pg1:Write a program to print multiplication table of a given number using for loop. 
+num= int(input("enter number:"))
+print("multiplication table for" ,num)
 
+for i in range(0, 11):
+    print(num, "x", i ,"=" , num*i)
