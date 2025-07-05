@@ -35,6 +35,7 @@ for phrase in spam:
         break
 else:
     print("Not spam")
+
 #pg4:Write a program to find whether a given username contains less than 10 
 characters or not. 
 username = input("Enter your username: ")
@@ -44,3 +45,14 @@ if len(username) < 10:
     print("The username contains less than 10 characters.")
 else:
     print("The username contains 10 or more characters.")
+
+#pg5: Write a program which finds out whether a given name is present in a list or not. 
+name_list = ["Alice", "Bob", "Charlie", "David", "Eve"]
+
+# Input from user
+name_to_check = input("Enter a name to check: ")
+# Check if the name is in the list
+if name_to_check in name_list:
+    print(f"{name_to_check} is present in the list.")
+else:
+    print(f"{name_to_check} is not present in the list.")
