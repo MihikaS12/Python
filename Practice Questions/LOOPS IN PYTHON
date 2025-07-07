@@ -32,4 +32,10 @@ else:
         print(num, "is a prime number")
 
 #pg5: Write a program to find the sum of first n natural numbers using while loop.
-
+ n= int(input("enter number:"))
+i = 1
+sum=0
+while i<=n:
+    sum +=i
+    i=i+1
+print("the sum of natural numbers are:",sum)
