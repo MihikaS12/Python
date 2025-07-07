@@ -30,3 +30,6 @@ else:
             break
     else:
         print(num, "is a prime number")
+
+#pg5: Write a program to find the sum of first n natural numbers using while loop.
+
