@@ -39,4 +39,11 @@ num= int(input("enter number:"))
 result=sum(num)
 print("the sum of first", num ,"numbers is",result) 
 
-#pg5:
+#pg5:Write a python function to print first n lines of the following pattern: 
+*** 
+**               
+* 
+def pattern(n):
+    for i in range(n,0,-1):
+        print("*" * i)
+pattern(3)    
