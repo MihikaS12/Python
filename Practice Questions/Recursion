@@ -1,1 +1,13 @@
-#pg1:
+#pg1: Write a program using functions to find greatest of three numbers. 
+def funct(a,b,c):
+    if a>b and a>c:
+        print("a is greatest")
+    elif b>a and b>c:
+        print("b is greatest")
+    else:
+        print("c is greatest")
+
+n= int(input("enter the first number:"))
+n1=  int(input("enter the second number:")  ) 
+n2=int(input("enter the third number:") ) 
+funct(n,n1,n2)    
