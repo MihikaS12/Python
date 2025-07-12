@@ -13,3 +13,13 @@ n2=int(input("enter the third number:") )
 funct(n,n1,n2)    
 
 #pg2:Write a python program using function to convert Celsius to Fahrenheit. 
+
+def convert(celsius):
+    fahrenheit = ((celsius)*9/5)+32
+    return fahrenheit
+c= float(input("enter celsius:"))
+f= convert(c)
+print(c, "equals to", f)
+
+#pg3: How do you prevent a python print() function to print a new line at the end. 
+
