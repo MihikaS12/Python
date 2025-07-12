@@ -29,4 +29,4 @@ print("Hello, World!", end='')
 print("Hello", end=' ')
 print("World", end='!')
 
-#pg4:
+#pg4:Write a recursive function to calculate the sum of first n natural numbers. 
