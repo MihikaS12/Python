@@ -71,10 +71,26 @@ n=3
 for i in range(1,n+1):
     print("*"*i)
 
+
 #pg9: Write a program to print the following star pattern. 
 * * * 
 *   *   for n = 3 
 * * * 
+
+n = 3  # size of the square
+
+# Go through each row
+for row in range(n):
+    # Go through each column in the current row
+    for col in range(n):
+        # Check if we are at the border (first or last row/column)
+        if row == 0 or row == n - 1 or col == 0 or col == n - 1:
+            print("*", end=" ")  # print star with space
+        else:
+            print(" ", end=" ")  # print space in the middle
+    print()  # go to next line after each row
+
+
 
 #pg10: Write a program to print multiplication table of n using for loops in reversed 
 order.
