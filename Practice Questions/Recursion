@@ -22,4 +22,9 @@ f= convert(c)
 print(c, "equals to", f)
 
 #pg3: How do you prevent a python print() function to print a new line at the end. 
+# Print without a newline at the end
+print("Hello, World!", end='')
 
+# Another example with custom ending
+print("Hello", end=' ')
+print("World", end='!')
