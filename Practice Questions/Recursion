@@ -30,3 +30,13 @@ print("Hello", end=' ')
 print("World", end='!')
 
 #pg4:Write a recursive function to calculate the sum of first n natural numbers. 
+def sum(n):
+    if  n==1:
+        return 1
+    else:
+        return n+sum(n-1)
+num= int(input("enter number:"))
+result=sum(num)
+print("the sum of first", num ,"numbers is",result) 
+
+
