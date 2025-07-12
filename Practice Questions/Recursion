@@ -39,4 +39,4 @@ num= int(input("enter number:"))
 result=sum(num)
 print("the sum of first", num ,"numbers is",result) 
 
-
+#pg5:
