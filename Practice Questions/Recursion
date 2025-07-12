@@ -49,4 +49,4 @@ def pattern(n):
 pattern(3)    
 
 
-#pg6:
+#pg6:Write a python function which converts inches to cms.
