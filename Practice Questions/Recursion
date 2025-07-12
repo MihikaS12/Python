@@ -11,3 +11,5 @@ n= int(input("enter the first number:"))
 n1=  int(input("enter the second number:")  ) 
 n2=int(input("enter the third number:") ) 
 funct(n,n1,n2)    
+
+#pg2:Write a python program using function to convert Celsius to Fahrenheit. 
