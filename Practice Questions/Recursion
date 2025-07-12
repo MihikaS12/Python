@@ -39,6 +39,7 @@ num= int(input("enter number:"))
 result=sum(num)
 print("the sum of first", num ,"numbers is",result) 
 
+
 #pg5:Write a python function to print first n lines of the following pattern: 
 *** 
 **               
@@ -50,3 +51,9 @@ pattern(3)
 
 
 #pg6:Write a python function which converts inches to cms.
+def convert(m):
+    centimeters= m*100
+    return centimeters
+m= int(input("enter meter value:"))
+cm= convert(m)
+print("the", m ,"meters equals to", cm,"centimeters")
