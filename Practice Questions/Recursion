@@ -57,3 +57,6 @@ def convert(m):
 m= int(input("enter meter value:"))
 cm= convert(m)
 print("the", m ,"meters equals to", cm,"centimeters")
+
+#pg7:Write a python function to remove a given word from a list ad strip it at the same 
+time.
