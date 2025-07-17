@@ -10,7 +10,6 @@ print("The Greatest Num is",greatest)
 total of 40% and at least 33% in each subject to pass. Assume 3 subjects and 
 take marks as an input from the user.
 
-
 sub1= float(input("enter marks of subject1: "))
 sub2=float(input("enter marks of subject2: "))
 sub3=float(input("Enter marks of subject3: "))
