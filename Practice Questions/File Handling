@@ -6,3 +6,5 @@ if 'twinkle' in check.lower():
     print("it contains twinkle in file")
 else:
     print("twinkle not in file")  
+
+#pg12:
