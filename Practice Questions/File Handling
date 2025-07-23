@@ -12,3 +12,26 @@ The game() function in a program lets a user play a game and returns the score
 as an integer. You need to read a file ‘Hi-score.txt’ which is either blank or 
 contains the previous Hi-score. You need to write a program to update the Hi
 score whenever the game() function breaks the Hi-score.
+# Step 1: Ask the user to enter their score
+score = int(input("Enter your score: "))
+
+# Step 2: Try to read the old high score from the file
+try:
+    with open("Hi-score.txt", "r") as file:
+        old_score = file.read()
+        if old_score.strip() == "":
+            hi_score = 0
+        else:
+            hi_score = int(old_score)
+except FileNotFoundError:
+    # If file doesn't exist, set high score to 0
+    hi_score = 0
+
+# Step 3: Compare scores
+if score > hi_score:
+    print("New high score! 🎉")
+    # Step 4: Save the new high score into the file
+    with open("Hi-score.txt", "w") as file:
+        file.write(str(score))
+else:
+    print("Good try! The high score is still", hi_score)
