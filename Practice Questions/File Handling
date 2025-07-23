@@ -56,8 +56,8 @@ for number in range(2, 21):
         for i in range(1, 11):
             line = f"{number} x {i} = {number * i}\n"
             file.write(line)
-
 print("All tables saved in the folder: Multiplication Tables for Kids ✅")
 
 #pg4:A file contains a word “Donkey” multiple times. You need to write a program 
 which replace this word with ##### by updating the same file.  
+
