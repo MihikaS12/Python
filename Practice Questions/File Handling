@@ -68,3 +68,4 @@ which replace this word with ##### by updating the same file.
 #pg9:Write a program to find out whether a file is identical & matches the content of 
 another file.
 #pg10: Write a program to wipe out the content of a file using python. 
+#pg11:. Write a python program to rename a file to “renamed_by_ python.txt.
