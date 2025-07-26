@@ -61,7 +61,7 @@ print("All tables saved in the folder: Multiplication Tables for Kids ✅")
 #pg4:A file contains a word “Donkey” multiple times. You need to write a program 
 which replace this word with ##### by updating the same file.  
 
-#pg5:
+#pg5:Repeat program 4 for a list of such words to be censored. 
 #pg6:
 #pg7:
 #pg8:
