@@ -67,3 +67,4 @@ which replace this word with ##### by updating the same file.
 #pg8:Write a program to make a copy of a text file “this. txt”
 #pg9:Write a program to find out whether a file is identical & matches the content of 
 another file.
+#pg10: Write a program to wipe out the content of a file using python. 
