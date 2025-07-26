@@ -64,5 +64,5 @@ which replace this word with ##### by updating the same file.
 #pg5:Repeat program 4 for a list of such words to be censored. 
 #pg6:Write a program to mine a log file and find out whether it contains ‘python’. 
 #pg7:Write a program to find out the line number where python is present from ques 6. 
-#pg8:
+#pg8:Write a program to make a copy of a text file “this. txt”
 #pg9:
