@@ -2,7 +2,6 @@
 
 
 
-
 # Python Practice & Mini Projects
 
 Welcome to my **Python Practice & Mini Projects** repository!
