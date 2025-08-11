@@ -69,6 +69,21 @@ with open("file.txt","w")as file:
 print("the word 'donkey' has been replaced with '###' in the file")
 
 #pg5:Repeat program 4 for a list of such words to be censored. 
+censored_words = ["Donkey", "word1", "word2", "word3"]  # Add more words as needed
+
+# Open the file in read mode to read the content
+with open("file.txt", "r") as file:
+    content = file.read()
+
+# Replace each word in the censored list with "#####"
+for word in censored_words:
+    content = content.replace(word, "#####")
+
+# Open the file in write mode to update the content
+with open("file.txt", "w") as file:
+    file.write(content)
+
+print("The specified words have been replaced with '#####'.")
 #pg6:Write a program to mine a log file and find out whether it contains ‘python’. 
 #pg7:Write a program to find out the line number where python is present from ques 6. 
 #pg8:Write a program to make a copy of a text file “this. txt”
