@@ -60,6 +60,13 @@ print("All tables saved in the folder: Multiplication Tables for Kids ✅")
 
 #pg4:A file contains a word “Donkey” multiple times. You need to write a program 
 which replace this word with ##### by updating the same file.  
+with open("files.txt","r") as file:
+    content = file.read()
+    new_content= content.replace("donkey","###")
+#writing the updated info to the file
+with open("file.txt","w")as file:
+        file.write(new_content)
+print("the word 'donkey' has been replaced with '###' in the file")
 
 #pg5:Repeat program 4 for a list of such words to be censored. 
 #pg6:Write a program to mine a log file and find out whether it contains ‘python’. 
