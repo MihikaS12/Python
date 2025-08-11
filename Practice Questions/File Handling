@@ -81,7 +81,19 @@ with open("file.txt", "w") as file:
     file.write(content)
 print("The specified words have been replaced with '#####'.")
 
+
 #pg6:Write a program to mine a log file and find out whether it contains ‘python’.
+def check_for_python_in_log(file_path):
+    file = open(file_path, "r")
+    content = file.read()
+    file.close()   
+    if 'python' in content.lower():
+        print("The log file contains the word 'python'.")
+    else:
+        print("The log file does not contain the word 'python'.")
+# You can specify the log file name here
+log_file_path = "logfile.txt"
+check_for_python_in_log(log_file_path)
 
 #pg7:Write a program to find out the line number where python is present from ques 6. 
 #pg8:Write a program to make a copy of a text file “this. txt”
