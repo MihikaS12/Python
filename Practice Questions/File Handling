@@ -96,6 +96,14 @@ log_file_path = "logfile.txt"
 check_for_python_in_log(log_file_path)
 
 #pg7:Write a program to find out the line number where python is present from ques 6. 
+def file_num(file_path):
+    with open(file_path,'r') as file:
+        for line_number,line in enumerate(file,1):
+            if 'python' in line.lower:
+             print("python found in",line_number) 
+log_file_path="log_file.txt"
+file_num(log_file_path)
+
 #pg8:Write a program to make a copy of a text file “this. txt”
 #pg9:Write a program to find out whether a file is identical & matches the content of 
 another file.
