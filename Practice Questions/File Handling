@@ -143,3 +143,15 @@ wipe_file(file_path)
 print(f"The content of the file '{file_path}' has been wiped out.")
 
 #pg11:. Write a python program to rename a file to “renamed_by_ python.txt.
+def rename_file(old_file_name):
+    new_file_name = 'renamed_by_python.txt'
+    # Read content from the old file
+    with open(old_file_name, 'r') as old_file:
+        content = old_file.read()
+    # Write content to the new file
+    with open(new_file_name, 'w') as new_file:
+        new_file.write(content) 
+# Example usage
+old_file_name = 'file_to_rename.txt'  # Replace with your file's current name
+rename_file(old_file_name)
+print(f"File '{old_file_name}' has been copied to 'renamed_by_python.txt'.")
