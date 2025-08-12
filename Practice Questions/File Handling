@@ -117,6 +117,21 @@ def copy_file(source_file,destination_file):
 
 #pg9:Write a program to find out whether a file is identical & matches the content of 
 another file.
+def compare_files(file1, file2):
+    with open(file1, 'r') as f1, open(file2, 'r') as f2:
+        content1 = f1.read()
+        content2 = f2.read()
+
+    if content1 == content2:
+        print(f"The files '{file1}' and '{file2}' are identical.")
+    else:
+        print(f"The files '{file1}' and '{file2}' are not identical.")
+
+# Example usage
+file1 = 'file1.txt'  # Replace with your file paths
+file2 = 'file2.txt'
+
+compare_files(file1, file2)
 
 #pg10: Write a program to wipe out the content of a file using python. 
 #pg11:. Write a python program to rename a file to “renamed_by_ python.txt.
